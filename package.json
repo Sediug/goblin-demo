@@ -1,0 +1,37 @@
+{
+  "name": "goblin-demo",
+  "version": "0.0.1",
+  "description": "GoblinDB | Demo",
+  "main": "./index.js",
+  "scripts": {
+    "demo": "node index.js",
+    "set": "node demos/set.js",
+    "push": "node demos/push.js",
+    "update": "node demos/update.js",
+    "delete": "node demos/delete.js",
+    "truncate": "node demos/truncate.js"
+  },
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Sediug/goblin-demo.git"
+  },
+  "keywords": [
+    "database",
+    "json",
+    "GoblinDB"
+  ],
+  "author": {
+    "name": "Sebastián Cabanas",
+    "url": "https://github.com/Sediug"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Sediug/goblin-demo/issues"
+  },
+  "homepage": "https://github.com/Sediug/goblin-demo#readme",
+  "dependencies": {
+    "@goblindb/goblindb": "^0.1.0"
+  },
+  "devDependencies": {}
+}
